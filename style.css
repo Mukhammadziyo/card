@@ -1,0 +1,114 @@
+/* figtree-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/figtree-v6-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v6-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v6-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4d04e;
+  height: 100dvh;
+}
+
+.card {
+  padding: 24px;
+  background-color: #ffffff;
+  box-shadow: 8px 8px 0px 0px #000000;
+  border-radius: 20px;
+  width: 384px;
+}
+
+.card__image {
+  width: 336px;
+  height: auto;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.card__date {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  color: Black;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.card__link {
+  width: 82px;
+  background-color: #f4d04e;
+  padding: 4px 12px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 800;
+  color: Black;
+  border-radius: 4px;
+  border: none;
+}
+
+.card__title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  color: Black;
+}
+
+.card__info {
+  color: #7f7f7f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.card__profile {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.card__profile-name {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 800;
+  color: Black;
+}
