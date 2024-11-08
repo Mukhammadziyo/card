@@ -28,6 +28,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Figtree", sans-serif;
+  transition: 0.3s;
 }
 
 a {
@@ -91,6 +92,10 @@ body {
   line-height: 36px;
   font-weight: 500;
   color: Black;
+
+  &:hover {
+    color: #f4d04e;
+  }
 }
 
 .card__info {
